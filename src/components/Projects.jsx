@@ -7,21 +7,21 @@ const work = [
     title: "Fintech Onboarding Redesign",
     desc: "Reduced time-to-first-value by 37% through streamlined flows and progressive disclosure.",
     tag: "Product Design",
-    icon: <Smartphone className=\"h-5 w-5\" />,
+    icon: <Smartphone className="h-5 w-5" />,
     accent: "from-indigo-500/20 to-fuchsia-500/20",
   },
   {
     title: "SaaS Analytics Dashboard",
     desc: "Built a modular design system and data visualizations improving task success by 28%.",
     tag: "Design Systems",
-    icon: <BarChart className=\"h-5 w-5\" />,
+    icon: <BarChart className="h-5 w-5" />,
     accent: "from-cyan-400/20 to-indigo-500/20",
   },
   {
     title: "E-commerce Mobile App",
     desc: "Introduced gesture-first patterns and micro-interactions raising conversion by 19%.",
     tag: "Mobile UX",
-    icon: <PenTool className=\"h-5 w-5\" />,
+    icon: <PenTool className="h-5 w-5" />,
     accent: "from-fuchsia-500/20 to-cyan-400/20",
   },
 ];
@@ -57,8 +57,8 @@ export default function Projects() {
             transition={{ duration: 0.5, delay: i * 0.05 }}
             className="group relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br p-0.5 shadow-2xl"
           >
-            <div className={`rounded-[22px] bg-neutral-950/80 p-5 backdrop-blur`}>
-              <div className={`absolute inset-0 -z-10 bg-gradient-to-br ${item.accent}`} />
+            <div className={`absolute inset-0 -z-10 bg-gradient-to-br ${item.accent}`} />
+            <div className="relative rounded-[22px] bg-neutral-950/80 p-5 backdrop-blur">
               <div className="flex items-center justify-between gap-4">
                 <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] text-white/70">
                   {item.icon}

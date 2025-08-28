@@ -16,7 +16,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative mt-20 md:mt-28">
-      <div className="mx-auto max-w-5xl">
+      <div className="mx-auto max-5xl">
         <div className="mb-8 text-center">
           <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">Let’s build something great</h2>
           <p className="mx-auto mt-2 max-w-2xl text-sm text-white/70">
